@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul   {
+    background-color: black;
+    color:white;
+    display:flex;
+    height:60px;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{ 
+    width:40px;
+    padding: 0 8px;
+}
+.brand{
+display: flex;
+align-items: center;
+font-size:1.3rem;
+font-weight: bolder;
+}
+.container{
+   min-height: 70vh;
+   background-color: black;
+   margin:10px;
+   color:white;
+   background-image: url('images/headphone.jpg');
+}
+.bottom{
+    background-color: black;
+    color: white;
+    bottom:20px;
+    border:2px solid white;
+    display:flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+#myProgressBar{
+    display:felx;
+    justify-content: center;
+    height:50px;
+    width:600px;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.5s;
+}
+.icons{
+   transform:translate(-315px ,33px);
+   cursor: pointer;
+}
+h1{
+    padding:6px;
+}
+.songlist1 img{
+height:61.5px;
+margin-top: 10px;
+transform:translate( -30px , 25px);
+border-radius: 9px;
+}
+.songlist1{
+    background-color:  white;
+    color:black;
+    height:70px;
+    border-radius: 9px;
+    padding:20px 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.songlist1 i{
+    transform: translate(50px, 20px);
+}
+.songlist4 img{
+    height:64px;
+    WIDTH:110PX;
+    margin-top: 10px;
+    transform:translate( -30px , 25px);
+    border-radius: 9px;
+}
+.songlist4{
+    background-color:  white;
+    color:black;
+    height:71px;
+    border-radius: 9px;
+    padding:20px 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.songlist4 i{
+    transform: translate(50px, 20px);
+}
+.block{
+    position: absolute;
+    transform: translate(660px ,-200px);
+    font-size: 40px;
+    font-weight: bolder;
+}

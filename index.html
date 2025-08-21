@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+ 
+
+    <title>spotify</title>
+</head>
+<body>
+    <nav>
+<ul>
+    <li class="brand"><img src="images/logo.png" alt="spotify"> Spotify</li>
+    <li> Home </li>
+    <li>About</li>
+    <li>services</li>
+    <li>contact us</li>
+</ul>
+    </nav>
+    <div class="container">
+        <div >
+        <h1> Best of NCS no Copyright sounds</h1>
+        <div class="songlist" >
+           <span class="songlist1" ><img src="images/a1.jpg" alt="jamal kadu"> 
+             <i class="fa-sharp fa-solid fa-play" onclick="playSong1('1.mp3.mp3')" ></i><b>Husn - Anuvjain</b></span>
+        </div>
+        <div class="songlist">
+            <span class="songlist1"><img src="images/a2.jfif" alt="jamal kadu"> 
+              <i class="fa-sharp fa-solid fa-play"  onclick="playSong2('2.mp3.mp3')"></i><b>Chamkh-Chahlo</b></span>
+         </div>
+         <div class="songlist">
+            <span class="songlist1"><img src="images/a3.jpg" alt="jamal kadu"> 
+              <i class="fa-sharp fa-solid fa-play" onclick="playSong3('5.mp3.mp3')" ></i><b>Kinna Sona .......</b></span>
+         </div>
+         <div class="songlist" >
+            <span class="songlist4"><img src="images/a4.jfif" alt="jamal kadu"> 
+              <i class="fa-sharp fa-solid fa-play" onclick="playSong4('4.mp3.mp3')"></i><b>Jamal kadu abr </b></span> 
+            </div>
+         </div>
+        <div class="block">
+        <p> ENJOY THE BEAT </p>
+    </div>
+    </div>
+
+    <div class="bottom">
+        <span id="currentTime">0:00</span>
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <span id="duration">0:00</span>
+        <span id="timeLeft">-0:00</span>
+        <div class="icons"> 
+            <i class="fa-sharp fa-solid fa-backward"></i>
+            <i class="fa-sharp fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-sharp fa-solid fa-forward"></i>
+        </div>
+        <audio id="audio"></audio>
+    </div>
+   
+    <script src="script.js" > 
+    
+    </script>
+    
+</body>
+</html>
